@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Lesson 8.Images.Font Awesome.Basik Animation</h1>
+<h2>Font Awesome + transition</h2>
+<div class="first">
+    <ul class="fa-ul">
+        <li><i class="fa-li fa fa-check-square"></i>Marvel</li>
+        <li><i class="fa-li fa fa-spinner fa-spin"></i>DS</li>
+        <li><i class="fa-li fa fa-square"></i>Starwars</li>
+      </ul>
+</div>
+    <p>Наведите на синий блок и узрите магию <b>transition</b></p>
+    <div class="transformer">
+        <div class="small"></div>
+        <div class="small"></div>
+        <div class="small"></div>
+    </div>
+    <p><b>Transform & keyframes</b>в действии</p>
+    <h2>CSS Background</h2>
+    <div class="background">
+        <div class="png"></div>
+        </div>
+        <p>Выставляем картинку через <b>CSS</b> свойство <b>background</b></p>
+        <h2>Images(HTML Picture)</h2>
+        <div class="picture">
+            <div>
+                <picture>
+                    <source srcset="c5c6af4a7c5b397.jpg" media="(max-width: 1000px)">
+                    <source srcset="1200px-Star_Wars_Logo.png.jpg" media="(max-width: 1800px)">
+                    <img srcset="16d3e6c6c0167312_1920xH.jpg" alt="My default image">
+                </picture>
+            </div>
+            <p>Использование тега <b>picture</b> для отображения нужной картинки на нужном разрешении</p>
+            <p>Открой эту страницу на  <b>разных девайсах</b> и посмотри на результат</p>
+        </div>
+        <h2>Universes(HTML object-fit)</h2>
+        <div class="t1">
+        <div class="object-fit">
+            <div class="oj1">
+                <img src="16d3e6c6c0167312_1920xH.jpg" alt="" class="i1">
+                <p>Здесь кроется картинка с разрешением <b>1920*1035</b></p>
+            </div>
+            <div class="oj2">
+                <img src="1200px-Star_Wars_Logo.png.jpg" alt="" class="i2">
+                <p>Здесь кроется картинка с разрешением <b>300*181</b></p>
+            </div>
+            <div class="oj3">
+                <img src="c5c6af4a7c5b397.jpg" alt="" class="i3">
+                <p>Здесь кроется картинка с разрешением <b>700*350</b></p>
+            </div>
+        </div>
+    </div>
+    <h2>Universes in a row</h2>
+<div class="row">
+    <div class="row2">
+        <img class="block-2" src="./16d3e6c6c0167312_1920xH.jpg">
+        <div class="text-block">
+            <b>Marvel</b>
+            <p>So while Iron Man, set and released in 2008, can claim the banner as the first of the Marvel Cinematic Universe, within its story, Chris Evans has got Robert Downey Jr. beat. That’s because Evans’ origin story as Captain America in The First Avenger takes action in 1942. There, we’re also first fully introduced to the Tessarect, an energy cube that initializes the Infinity Saga, climaxing in 2019’s Avengers: Endgame.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row2">
+            <img class="block-2" src="./1200px-Star_Wars_Logo.png.jpg">
+            <div class="text-block">
+                <b>Star-Wars</b>
+                <p>In 2012, The Walt Disney Company bought the rights to the franchise from George Lucas for 4.05 billion dollars. Since then, Disney has split off Star Wars into two main categories, those being Star Wars Legends and Star Wars Canon, with Canon being the "official" story of the franchise.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row2">
+                <img class="block-2" src="./c5c6af4a7c5b397.jpg">
+                <div class="text-block">
+                    <b>DC</b>
+                    <p>The public policy of the District of Columbia is that all persons are entitled to full and complete information regarding the affairs of government and the official acts of those who represent them as public officials and employees. To that end, provisions of this subchapter shall be construed with the view toward expansion of public access and the minimization of costs and time delays to persons requesting information.</p>
+                </div>
+            </div>
+</div>
+
+</body>
+</html>
